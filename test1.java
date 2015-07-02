@@ -36,6 +36,6 @@ public class test1 {
   }
 	@Test
 	public void testmethod(){
-		System.out.println("Test");
+		System.out.println("Tes");
 	}
 }
