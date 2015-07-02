@@ -9,6 +9,7 @@ public class approver_login {
   @Test
   public void firstlevelapprover() {
 	  System.out.println("test" + re.text);
+	  driver.findElement(By.partialLinkText(this.text)).click();
 	  
 	 /* driver.get("http://10.10.10.181/RSP/ACE.nsf/Home.xsp");
 	  WebDriverWait wait = new WebDriverWait(driver, 40);	  
